@@ -89,7 +89,7 @@ export function Steam(
       }
     },
     userinfo: {
-      async request(ctx) {
+      async request(ctx: { provider: { clientSecret: any }; tokens: { steamId: any } }) {
         const response = await fetch(
           `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${ctx.provider.clientSecret}&steamids=${ctx.tokens.steamId}`
         )

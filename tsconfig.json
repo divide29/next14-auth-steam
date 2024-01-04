@@ -8,5 +8,5 @@
     "skipLibCheck": true,
     "moduleResolution": "node"
   },
-  "include": ["src"]
+  "include": ["src", "lib/constants.ts", "lib/constants.ts"]
 }
