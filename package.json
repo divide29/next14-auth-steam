@@ -1,5 +1,5 @@
 {
-  "name": "next-auth-steam",
+  "name": "next14-auth-steam",
   "license": "WTFPL",
   "version": "0.1.6",
   "description": "Steam authentication provider for next-auth",
@@ -7,7 +7,7 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/divide29/next14-auth-steam"
+    "url": "git+https://github.com/divide29/next14-auth-steam.git"
   },
   "files": [
     "lib"
@@ -18,7 +18,7 @@
   },
   "peerDependencies": {
     "next": "^14.0.4",
-    "next-auth": "^5.0.0",
+    "next-auth": "^5.0.0-beta.4",
     "openid-client": "^5.6.2"
   },
   "dependencies": {
@@ -28,8 +28,16 @@
     "@types/node": "^20.4.6",
     "@types/openid": "^2.0.5",
     "next": "^14.0.4",
-    "next-auth": "^5.0.0",
+    "next-auth": "^5.0.0-beta.4",
     "openid-client": "^5.6.2",
     "typescript": "^5.1.6"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/divide29/next14-auth-steam/issues"
+  },
+  "homepage": "https://github.com/divide29/next14-auth-steam#readme",
+  "directories": {
+    "example": "examples"
+  },
+  "author": ""
 }

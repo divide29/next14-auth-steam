@@ -1,6 +1,6 @@
 # next-auth-steam
 
-steam authentication provider for [next-auth](https://npm.im/next-auth).
+steam authentication provider for [next-auth14](https://npm.im/next-auth).
 
 ## Example
 
@@ -11,7 +11,7 @@ steam authentication provider for [next-auth](https://npm.im/next-auth).
 import { NextApiRequest, NextApiResponse } from 'next'
 
 import NextAuth from 'next-auth'
-import SteamProvider from 'next-auth-steam'
+import SteamProvider from 'next14-auth-steam'
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   return NextAuth(req, res, {
