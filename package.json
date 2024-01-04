@@ -1,7 +1,7 @@
 {
   "name": "next14-auth-steam",
   "license": "WTFPL",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Steam authentication provider for next-auth",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -31,6 +31,10 @@
     "next-auth": "^5.0.0-beta.4",
     "openid-client": "^5.6.2",
     "typescript": "^5.1.6"
+  },
+  "browser": {
+    "crypto": false,
+    "stream": false
   },
   "bugs": {
     "url": "https://github.com/divide29/next14-auth-steam/issues"
